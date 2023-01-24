@@ -1,0 +1,48 @@
+
+.accordionNews {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.categoria-accordion {
+    margin-left: 20px;
+    padding: 0;
+}
+
+.childrenNews {
+
+}
+
+.expandNews {
+    animation-name: MenuOpen;
+    animation-duration: 200ms;
+}
+
+.collapseNews {
+    animation-name: MenuClose;
+    animation-duration: 200ms;
+}
+
+@keyframes MenuOpen {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes MenuClose {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(-90deg);
+    }
+}

@@ -1,0 +1,22 @@
+.news-filter {
+    width: 1350px;
+    display: flex;
+}
+
+.results-filter {
+    flex: 2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.article-filter {
+    flex: 1 1 40%;
+    max-width: 650px;
+    align-items: center;
+    transform: scale(1);
+    transition: 300ms ease
+}
+
+.article-filter:hover {
+    transform: scale(1.05);
+}

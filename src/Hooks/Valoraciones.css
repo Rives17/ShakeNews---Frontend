@@ -1,0 +1,43 @@
+
+.button-shakes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: var(--color-terciario);
+    color: var(--color-texto);
+    border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.counter {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.logoNews {
+    width: 50px;
+}
+
+.shaked {
+    animation-name: ShakeAnimation;
+    animation-duration: 50ms;
+    animation-iteration-count: 10;
+}
+
+@keyframes ShakeAnimation {
+    0%{
+        transform: rotate(7deg);
+    }
+    25%{
+        transform: rotate(-7deg);
+    }
+    50%{
+        transform: rotate(7deg);
+    }
+    100%{
+        transform: rotate(-7deg);
+    }
+}

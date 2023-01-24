@@ -1,0 +1,11 @@
+:root {
+    --color-primario: #121213;
+    --color-secundario: #1d1e1f;
+    --color-terciario: #3a3b3c;
+    --color-texto: #d7dadc;
+    --white-medium: #777a7c;
+    --color-pink: rgb(209 120 213);
+    --color-blue: rgb(68 180 174);
+    --color-orange: #fba800;
+    --gradiente: linear-gradient(to right, var(--color-orange), var(--color-secundario))
+}

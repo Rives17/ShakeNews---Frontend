@@ -1,0 +1,202 @@
+
+.container-news {
+    display: flex;
+    background-color: var(--color-secundario);
+    border-radius: 10px;
+    width: auto;
+    list-style: none;
+    padding: 10px;
+    margin: 20px;
+    font-family:  Arial, sans-serif;
+}
+
+
+.allContentNews {
+    width: 100%;
+    margin: 0 0 0 15px;
+}
+
+.title {
+    width: auto;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.descripcion {
+    width: 100%;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+.valoraciones {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    border-right: 0.5px solid var(--color-terciario);
+    padding-right: 10px;
+}
+
+.news-author {
+    display: flex;
+    align-items: center;
+    background-color: rgb(36, 45, 54);
+    border-radius: 10px;
+    width: fit-content;
+    height: 20px;
+    padding: 3px 10px;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.author-avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0px 5px 0px -5px;
+    object-fit: cover;
+}
+
+.p-author {
+    margin-right: 5px;
+}
+
+.p-de {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.enlace {
+    font-weight: bold;
+    color: var(--color-pink);
+}
+
+.author-nickname {
+    color: var(--color-blue);
+    font-weight: bold;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-news {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    background-position: center;
+}
+
+.news-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid rgba(153, 153, 153, 0.1);
+    border-left: none;
+    border-right: none;
+}
+
+.toComments {
+    color: var(--color-pink);
+    margin-right: 10px;
+    padding-right: 20px;
+    border-right: 1px solid rgba(153, 153, 153, 0.1);
+}
+
+.categoria-news {
+    margin: 0 10px;
+}
+
+.toComments:hover{
+    text-decoration: underline;
+}
+
+.button-shakes {
+    background-color: var(--color-secundario);
+    color: var(--color-orange);
+    border: 1px solid var(--color-orange);
+    font-size: 11px;
+    transform: scale(1);
+    transition: all 200ms ease;
+}
+
+.accordion.expand {
+    display: flex;
+    align-items: center;
+}
+
+.accordion.collapse {
+    display: flex;
+    align-items: center;
+}
+
+.menu-button {
+    cursor: pointer;
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.menu-button:hover {
+    background-color: var(--color-primario);
+}
+
+.selfNoticia {
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    margin-left: 40px;
+}
+
+.edit-button {
+    color: var(--color-texto);
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    border: 1px var(--color-orange) solid;
+    border-radius: 10px;
+    padding: 2px 5px;
+    background-color: var(--color-secundario);
+    width: 45px;
+    text-align: center;
+}
+
+.delete-button {
+    color: var(--color-texto);
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    border: 1px var(--color-orange) solid;
+    border-radius: 10px;
+    padding: 2px 5px;
+    background-color: var(--color-secundario);
+    width: 57.22px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.delete-button:hover {
+    color: var(--color-orange);
+}
+
+.edit-button:hover {
+    color: var(--color-orange);
+}
+
+.button-shakes:hover {
+    transform: scale(1.05);
+    color: black;
+    background-color: var(--color-orange);
+}
+
+

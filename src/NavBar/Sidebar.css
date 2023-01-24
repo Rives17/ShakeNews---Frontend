@@ -1,0 +1,181 @@
+@import "../Variables/variables.css";
+
+
+header {
+    display: flex;
+    justify-content: center;
+    background: var(--color-secundario);
+    border-bottom: 1px solid var(--color-terciario);
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+}
+
+.ancho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 55px;
+}
+
+.navegador {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    transform: scale(1);
+    transition: 300ms ease;
+}
+
+.container-user-menus{
+    display: flex;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--white-medium);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+a {
+    color:var(--color-texto);
+    text-decoration: none;
+}
+
+.navegador {
+    margin: 0 10px;
+}
+.navegador a {
+    margin: 0 20px;
+}
+
+
+img {
+    width: 20px ;
+}
+
+
+.input-header {
+    margin-left: 10px;
+    width: 200px;
+    height: 18px;
+    background-color: var(--color-secundario);
+    border: none;
+    color: var(--color-texto);
+    outline: none;
+}
+
+.input-header, textarea {
+    padding-left: 10px;
+}
+
+.lupa-icon {
+    margin-left: 5px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+
+.login {
+    border: 1px solid var(--color-blue);
+    border-radius: 20px;
+    padding: 7px 19px;
+    margin-right: 10px;
+    transition: 300ms ease;
+    cursor: pointer;
+
+}
+
+.signup {
+    border: 1px solid var(--color-pink);
+    border-radius: 20px;
+    padding: 7px 20px;
+    margin-right: 10px;
+    transition: 300ms ease;
+    cursor: pointer;
+}
+
+
+a img {
+    width: 140px;
+}
+
+.logotipo-img {
+    width: 150px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.publicar {
+    display: flex;
+    align-items: center;
+    transform: scale(1);
+    transition: 100ms ease;
+}
+
+.icon-publicar {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.categoria {
+    display: flex;
+    transform: scale(1);
+    transition: 100ms ease;
+}
+
+.publicar:hover {
+    transform: scale(1.03);
+    color: var(--color-orange);
+}
+
+.categoria:hover {
+    transform: scale(1.03);
+    color: var(--color-orange);
+
+}
+
+.login:hover {
+    background-color: var(--color-blue);
+    color: black;
+}
+
+.signup:hover {
+    background-color: var(--color-pink);
+    color: black;
+}
+
+@keyframes colorChange {
+    0% {
+        color: var(--color-pink);
+    }
+    100% {
+        color: var(--color-blue)
+    }
+}

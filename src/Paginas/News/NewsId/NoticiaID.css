@@ -1,0 +1,15 @@
+
+.container-news-comments {
+    display: flex;
+    flex-direction: column;
+}
+
+.results-newsId {
+    width: 900px;
+    padding: 0;
+}
+
+.NewsId {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,19 @@
+.menu-categorias {
+    width: auto;
+    height: auto;
+}
+
+.list-categorias {
+    list-style: none;
+}
+
+.categoria {
+    padding: 10px;
+    align-items: center;
+    margin: 0;
+}
+
+.icono-categoria {
+    width: 25px;
+    margin-right: 10px;
+}

@@ -1,0 +1,35 @@
+.news-home {
+    width: 100%;
+    display: flex;
+}
+
+.results-home {
+    flex: 2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.article-home {
+    flex: 1 1 40%;
+    max-width: 650px;
+    align-items: center;
+    transform: scale(1);
+    transition: 300ms ease
+}
+
+.article-home:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 1305px) {
+    .news-home {
+        width: 100vw;
+        display: flex;
+    }
+    .results-home {
+        flex-flow: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+}
